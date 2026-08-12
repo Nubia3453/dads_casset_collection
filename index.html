@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dad's Cassette Collection</title>
+</head>
+
+<body>
+
+    <h1>Dad's Cassette Collection</h1>
+
+    <div id="music-list"></div>
+
+    <script>
+        fetch("data/music.json")
+            .then(response => response.json())
+            .then(songs => {
+
+                const musicList = document.getElementById("music-list");
+
+                songs.forEach(song => {
+
+                    const songElement = document.createElement("div");
+
+                    songElement.innerHTML = `
+                        <h2>${song.title}</h2>
+                        <p>${song.artist} · ${song.year}</p>
+                        <audio controls src="${song.audioUrl}"></audio>
+                        <hr>
+                    `;
+
+                    musicList.appendChild(songElement);
+                });
+
+            })
+            .catch(error => {
+                console.error("Error loading music database:", error);
+            });
+    </script>
+
+</body>
+</html>
