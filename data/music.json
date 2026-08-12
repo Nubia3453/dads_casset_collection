@@ -1,0 +1,30 @@
+[
+  {
+    "id": "song001",
+    "title": "Main Duniya Bhula Doonga Teri Chahat Mein",
+    "artist": "Anuradha Paudwal, Kumar Sanu",
+    "year": 1990,
+    "audioUrl": "https://pub-c2fa3072db2e461491c9932540efda51.r2.dev/music/song001.mp3"
+  },
+  {
+    "id": "song002",
+    "title": "Ek Sanam Chahiye Aashiqui Ke Liye (Saanson Ki Zaroorat Hai Jaise)",
+    "artist": "Kumar Sanu",
+    "year": 1990,
+    "audioUrl": "https://pub-c2fa3072db2e461491c9932540efda51.r2.dev/music/song002.mp3"
+  },
+  {
+    "id": "song003",
+    "title": "Nazar Ke Saamne Jigar Ke Paas",
+    "artist": "Anuradha Paudwal, Kumar Sanu",
+    "year": 1990,
+    "audioUrl": "https://pub-c2fa3072db2e461491c9932540efda51.r2.dev/music/song003.mp3"
+  },
+  {
+    "id": "song004",
+    "title": "Ek Ladki Ko Dekha",
+    "artist": "Kumar Sanu",
+    "year": 1994,
+    "audioUrl": "https://pub-c2fa3072db2e461491c9932540efda51.r2.dev/music/song004.mp3"
+  }
+]
